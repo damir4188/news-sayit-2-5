@@ -9,7 +9,7 @@ class Article(models.Model):
         ('ekonomika', 'Ekonomika'),
         ('sport', 'Sport'),
         ('madeniyat', 'Mádeniyat'),
-        ('siyahat', 'Siyahat'),
+        ('siyahat', 'Sayaxat'),
     ]
 
     title = models.CharField(max_length=300)
